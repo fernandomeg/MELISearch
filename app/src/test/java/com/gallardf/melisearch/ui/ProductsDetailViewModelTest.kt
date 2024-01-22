@@ -106,7 +106,7 @@ class ProductsDetailViewModelTest{
             productsDetailViewModel.getDetail(mockProductId)
             productsDetailViewModel.getDescription(mockProductId)
         }
-        val result = productsDetailViewModel.snackBarText.getOrAwaitValue()
+        val result = productsDetailViewModel.errorAlert.getOrAwaitValue()
 
         /*** Assert Response ***/
         Assertions.assertNotNull(result.getContentIfNotHandled())

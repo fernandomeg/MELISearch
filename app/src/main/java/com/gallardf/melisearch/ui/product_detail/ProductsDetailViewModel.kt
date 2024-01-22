@@ -44,7 +44,7 @@ class ProductsDetailViewModel @Inject constructor(
                 }
                 .onErrorResource {
                     _loading.postValue(false)
-                    _snackBarText.postValue(Event(it.message!!))
+                    _errorAlert.postValue(Event(it.message!!))
                 }
         }
 
@@ -58,7 +58,7 @@ class ProductsDetailViewModel @Inject constructor(
                 }
                 .onErrorResource {
                     _loading.postValue(false)
-                    _snackBarText.postValue(Event(it.message!!))
+                    _errorAlert.postValue(Event(it.message!!))
                 }
         }
 }

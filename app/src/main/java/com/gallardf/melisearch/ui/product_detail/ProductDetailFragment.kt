@@ -12,7 +12,6 @@ import com.gallardf.melisearch.R
 import com.gallardf.melisearch.databinding.FragmentProductDetailBinding
 import com.gallardf.melisearch.utils.formatToCurrency
 import com.gallardf.melisearch.utils.instantiateDataProgressBar
-import com.gallardf.melisearch.utils.showErrorToast
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -68,11 +67,10 @@ class ProductDetailFragment : Fragment() {
                     getString(R.string.product_detail_description_title,it)
             })
 
-            snackBarText.observe(viewLifecycleOwner, Observer {event->
+            errorAlert.observe(viewLifecycleOwner, Observer { event->
                 event.getContentIfNotHandled()?.let {
                     binding.fragmentProductDetailInfoContainer!!.visibility = View.GONE
                     setConnectivityScreen()
-                    showErrorToast(it)
                 }
             })
 

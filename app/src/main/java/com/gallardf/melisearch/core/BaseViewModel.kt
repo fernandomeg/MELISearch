@@ -6,7 +6,7 @@ import androidx.lifecycle.ViewModel
 
 abstract class BaseViewModel: ViewModel() {
 
-    protected val _snackBarText = MutableLiveData<Event<String>>()
-    val snackBarText: LiveData<Event<String>>
-        get() = _snackBarText
+    protected val _errorAlert = MutableLiveData<Event<String>>()
+    val errorAlert: LiveData<Event<String>>
+        get() = _errorAlert
 }

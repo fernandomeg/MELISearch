@@ -92,7 +92,7 @@ class ProductsViewModelTest {
         runBlocking {
             productViewModel.searchProductsByQuery(testQuery)
         }
-        val result = productViewModel.snackBarText.getOrAwaitValue()
+        val result = productViewModel.errorAlert.getOrAwaitValue()
 
         /*** Assert Response ***/
         assertNotNull(result.getContentIfNotHandled())

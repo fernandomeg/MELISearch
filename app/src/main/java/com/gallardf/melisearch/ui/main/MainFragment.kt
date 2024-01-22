@@ -13,7 +13,6 @@ import androidx.navigation.fragment.findNavController
 import com.gallardf.melisearch.R
 import com.gallardf.melisearch.databinding.FragmentMainBinding
 import com.gallardf.melisearch.domain.models.ProductModel
-import com.gallardf.melisearch.utils.showErrorToast
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
@@ -44,10 +43,9 @@ class MainFragment : Fragment() {
 
     private fun initObservers(){
         viewModel.run {
-            snackBarText.observe(viewLifecycleOwner, Observer {event ->
+            errorAlert.observe(viewLifecycleOwner, Observer { event ->
                 event.getContentIfNotHandled()?.let {
                     setConnectivityScreen()
-                    showErrorToast(it)
                 }
             })
 
