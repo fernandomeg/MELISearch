@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name" translatable="false">MELI Search</string>
+    <string name="search_title">Search in Mercado Libre</string>
+
+    <string name="empty_init_search_message">It is time to find\nyour favorite products here!</string>
+    <string name="empty_search_message">No products were found\nwith this description!</string>
+
+    <string name="view_data_dialog_subtitle">Please wait a moment…</string>
+    <string name="view_data_dialog_title">Just a moment…</string>
+
+    <string name="error_unknown_message">Error Unknown</string>
+    <string name="error_connectivity_message">There was an error connecting.\nPlease check your internet.</string>
+    <string name="product_detail_title">Product detail</string>
+    <string name="product_detail_loading_message">Loading product Detail…</string>
+
+    <string name="product_detail_description_title">Description\n\n%1$s</string>
+
+
+    <!-- content descriptions -->
+    <string name="content_description_carrousel" translatable="false">Image products Carrousel Adapter</string>
+</resources>

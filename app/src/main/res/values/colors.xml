@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FBE304</color>
+    <color name="secondary">#F4F4F4</color>
+    <color name="tertiary">#E7E8E7</color>
+
+    <color name="error_toast_strong">#F03434</color>
+    <color name="error_toast_background">#FDDEDE</color>
+
+    <color name="gray">#C8C8C9</color>
+
+    <color name="black_light">#2B2E23</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue">#007AFF</color>
+
+</resources>

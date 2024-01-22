@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MELI Search</string>
+    <string name="search_title">Buscar en Mercado Libre</string>
+
+
+    <string name="empty_init_search_message">¡Es momento de buscar\ntus productos favoritos aquí!</string>
+    <string name="empty_search_message">¡No se encontraron\nproductos con esa descripción!</string>
+
+    <string name="view_data_dialog_title">Solo un momento…</string>
+    <string name="view_data_dialog_subtitle">Por favor espera un momento…</string>
+
+    <string name="error_unknown_message">Error Desconocido</string>
+    <string name="error_connectivity_message">Hubo un error.\nVerifica tu internet.</string>
+    <string name="product_detail_title">Detalle del producto</string>
+    <string name="product_detail_loading_message">Cargando detalle del product…</string>
+
+    <string name="product_detail_description_title">Descripción\n\n%1$s</string>
+
+</resources>
