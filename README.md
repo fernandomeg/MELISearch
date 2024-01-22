@@ -9,6 +9,7 @@
 
 ## Arquitectura de MELI Search
 Este proyecto implementa un patrón **MVVM Clean architecture** que nos permite tener una separación clara de las responsabilidades de las diferentes capas de nuestra aplicación facilitando así el mantenimiento del código y la modularización del mismo. Este diagrama representa el tipo de arquitectura que se implementó en el proyecto:
+
 <img src="https://github.com/fernandomeg/MELISearch/assets/57393785/c1f45585-7c7f-4bd3-aeeb-02c8a2a69e22" alt="" height="150"/>
 
 ### Manejo de Casos de Error
